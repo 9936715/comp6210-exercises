@@ -8,32 +8,32 @@ namespace Task1
 {
     class Person
     {
-        public string Name { get; set; }
-        public string Surname { get; set; }
-        public string Gender { get; set; }
-        public string Region { get; set; }
-        public int Age { get; set; }
-        public string Title { get; set; }
-        public string Phone { get; set; }
-        public Birthday Birthday { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
-        public CreditCard CreditCard { get; set; }
-        public string Photo { get; set; }
+        public string name { get; set; }
+        public string surname { get; set; }
+        public string gender { get; set; }
+        public string region { get; set; }
+        public int age { get; set; }
+        public string title { get; set; }
+        public string phone { get; set; }
+        public Birthday birthday { get; set; }
+        public string email { get; set; }
+        public string password { get; set; }
+        public CreditCard credit_card { get; set; }
+        public string photo { get; set; }
      }
 
     class Birthday
     {
-        public string DMY { get; set; }
-        public string MDY { get; set; }
-        public int Raw { get; set; }
+        public string dmy { get; set; }
+        public string mdy { get; set; }
+        public int raw { get; set; }
     }
 
     class CreditCard
     {
-        public string Expiration { get; set; }
-        public string Number { get; set; }
-        public int Pin { get; set; }
-        public int Security { get; set; }
+        public string expiration { get; set; }
+        public string number { get; set; }
+        public int pin { get; set; }
+        public int security { get; set; }
     }
 }

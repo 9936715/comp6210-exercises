@@ -1,0 +1,7 @@
+E:\Users\nigel\Documents\Study\COMP6211\Exercises\Lists\Task1\obj\Debug\Task1.csprojAssemblyReference.cache
+E:\Users\nigel\Documents\Study\COMP6211\Exercises\Lists\Task1\obj\Debug\Task1.csproj.CoreCompileInputs.cache
+E:\Users\nigel\Documents\Study\COMP6211\Exercises\Lists\Task1\bin\Debug\Task1.exe.config
+E:\Users\nigel\Documents\Study\COMP6211\Exercises\Lists\Task1\bin\Debug\Task1.exe
+E:\Users\nigel\Documents\Study\COMP6211\Exercises\Lists\Task1\bin\Debug\Task1.pdb
+E:\Users\nigel\Documents\Study\COMP6211\Exercises\Lists\Task1\obj\Debug\Task1.exe
+E:\Users\nigel\Documents\Study\COMP6211\Exercises\Lists\Task1\obj\Debug\Task1.pdb
