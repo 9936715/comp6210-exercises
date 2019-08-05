@@ -20,7 +20,7 @@ namespace Task2
             Console.WriteLine("To exit entering integers, enter a non integer\n");
             while (true)
             {
-                Console.Write("Enter integer: ");
+                Console.Write("Enter an integer: ");
                 parse = int.TryParse(Console.ReadLine(), out input);
                 if (parse)
                 {
@@ -36,18 +36,19 @@ namespace Task2
 
             temp = (Stack)stack.Clone();
 
-            Console.WriteLine("\nStack\n-----");
+            Console.WriteLine("\nReverse Order\n-------------");
             while(temp.Count != 0)
             {
                 Console.WriteLine(temp.Peek());
                 temp2.Push(temp.Pop());
             }
 
-            Console.WriteLine("\nReverse Stack\n-------------");
-            while(temp2.Count !=0)
-            {
-                Console.WriteLine(temp2.Pop());
-            }
+            //Console.WriteLine("\nReverse Stack\n-------------");
+            //while(temp2.Count !=0)
+            //{
+            //    Console.WriteLine(temp2.Pop());
+            //}
+
             Console.WriteLine();
         }
     }

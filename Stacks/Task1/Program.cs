@@ -16,22 +16,18 @@ namespace Task1
              */
 
             // Create stack
-
-            Stack stack = new Stack();
+            int size = 10;
+            Stack stack = new Stack(size);
             string input = "";
             Stack temp = new Stack();
 
             // Get value from user
             Console.WriteLine("Type exit to end");
 
-            while (true)
+            for(int i=0; i<size; i++)
             {
                 Console.Write("\nInput value: ");
                 input = Console.ReadLine();
-                if(input == "exit")
-                {
-                    break;
-                }
 
                 if (stack.Contains(input))
                 {
@@ -56,6 +52,8 @@ namespace Task1
                     Console.WriteLine(temp.Pop());
                 }
             }
+
+            Console.WriteLine();
         }
     }
 }
