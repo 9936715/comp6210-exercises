@@ -19,9 +19,13 @@ namespace Task1
             q.Enqueue("Makaio");
             q.Enqueue("Zane");
 
-            while (q.Count != 0)
+            // Temp queue
+
+            Queue q1 = new Queue(q);
+
+            while (q1.Count != 0)
             {
-                Console.WriteLine(q.Dequeue());
+                Console.WriteLine(q1.Dequeue());
             }
         }
     }
